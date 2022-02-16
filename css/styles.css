@@ -1,0 +1,30 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #363636;
+    color: rgb(221, 221, 221);
+}
+
+h1 {
+    border-bottom: 1px solid #999999;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: white;
+}
+
+li {
+    padding: 7px;
+}
+
+a {
+    color: rgb(206, 230, 238);
+}
+
+li:hover {
+    background-color: #494949;
+}
+
+img {
+    width: 250px;
+    height: auto;
+}
