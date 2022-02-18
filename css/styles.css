@@ -22,14 +22,31 @@ li {
     padding: 0px;
     list-style-type: none;
     display: inline-block;
-    margin: 0px;
+    margin: 0px -5px 0px -5px;
 }
 
 a {
-    color: rgb(206, 230, 238);
-    padding: 7px;
+    color: rgb(239, 239, 239);
+    padding: 10px 10px;
     background-color:#4b4b4b;
     margin: 0px;
+    border-left: 1px solid #777777;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    text-shadow: black 1px 1px 2px;
+}
+
+ul > li:first-of-type a {
+    border-left: none;
+}
+
+ul > li:first-of-type {
+    margin-right: 0px;
+}
+
+ul > li:last-of-type {
+    margin-left: 0px;
 }
 
 a:hover {
