@@ -12,16 +12,28 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
+ul {
+    margin: 1em auto 1em auto;    
+    display: inline-block;
+    padding: 0px;
+}
+
 li {
-    padding: 7px;
+    padding: 0px;
+    list-style-type: none;
+    display: inline-block;
+    margin: 0px;
 }
 
 a {
     color: rgb(206, 230, 238);
+    padding: 7px;
+    background-color:#4b4b4b;
+    margin: 0px;
 }
 
-li:hover {
-    background-color: #494949;
+a:hover {
+    background-color: rgb(95, 95, 95);
 }
 
 img {
