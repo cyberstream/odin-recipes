@@ -12,17 +12,16 @@ h1, h2, h3, h4, h5, h6 {
     color: white;
 }
 
-ul {
-    margin: 1em auto 1em auto;    
-    display: inline-block;
+.flex-box {
+    margin: 2em auto 1em auto;   
     padding: 0px;
+    display: flex;
+    width: 50%;
 }
 
-li {
+.flex-item {
     padding: 0px;
-    list-style-type: none;
-    display: inline-block;
-    margin: 0px -5px 0px -5px;
+    flex: 0 0 auto;
 }
 
 a {
@@ -35,18 +34,11 @@ a {
     text-decoration: none;
     font-weight: bold;
     text-shadow: black 1px 1px 2px;
+    justify-content: center;
 }
 
-ul > li:first-of-type a {
+.flex-box > div.flex-item:first-of-type a {
     border-left: none;
-}
-
-ul > li:first-of-type {
-    margin-right: 0px;
-}
-
-ul > li:last-of-type {
-    margin-left: 0px;
 }
 
 a:hover {
